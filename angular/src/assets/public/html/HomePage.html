@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html lang="sl">
+<head>
+    <title> Coursense </title>
+    <meta property="og:title" content="Courses">
+
+    <!-- VIEWPORT -->
+	<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+
+    <!-- Latest compiled and minified BS4 CSS from CDN (Content Delivery Network)-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <!--Naša CSS datoteka-->
+	<link rel="stylesheet" href="../styles/home_style.css">
+
+</head>
+
+<body data-spy="scroll" data-target="#navigacija">
+
+    <!--------------/ Start NAVIGACIJA /-------------->
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a href="#home" class = "navbar-brand">
+                <img src="img/logo.png" alt="Logo Coursense" title="Logo Coursense">
+            </a>
+
+            <!-- Ikona za navigacijo v mobilnem pogledu (hamburger ikona) -->
+				<button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navigacija">
+					<span class = "custom-toggler-icon">
+						<i class="fas fa-bars"></i>
+					</span>
+				</button>
+
+
+            <!-- Povezave (linki) v navigaciji -->
+            <div class="collapse navbar-collapse" id="navigacija">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#search" class="nav-link">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#popular" class="nav-link">Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#whyus" class="nav-link">Why Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                        <span class="label"> Log In </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- ------------/ HOME VIDEO /------------ -->
+    <div id = "home">
+        <div class="video-background">
+            <div class="video-wrap">
+                <div id="video">
+                    <video id="bgvid" playsinline autoplay muted loop>
+                        <source src="img/courses.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="caption text-center text-light text-uppercase">
+            <h1 class="font-weight-bold"> Cour<span style="color: #F0b554">sense</span> </h1>
+            <h3> Where You Go For Courses </h3>
+            <a href="#search" class="btn btn-outline-light btn-lg rounded-10 os-animation" data-animation="fadeInUp" data-delay="1s"> Let's Search </a>
+        </div>
+    </div>
+
+    <!-- ---------- SEARCH -------- -->
+
+    <div id="search" class="gradient">
+        <form action="" class="search-bar">
+            <input type="text" placeholder="Search for Courses" name="q">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>  
+        <!--
+        <div class="wait">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        -->
+
+    </div>
+
+
+    <!-- -------- Popular ------- -->
+
+    <!-- ------- WHY US ------- -->
+
+    <div id="whyus" class="offset">
+        <div class="jumbotron">
+            <div class="os-animation" data-animation="fadeInUp">
+
+                <h3 class="heading3"> Why Us </h3>
+                <div class="heading-underline"></div>
+            </div>
+            
+            <div class="row">
+
+                <div class="col-md-6">
+                <h4 class="heading4"> We Got The Best Reviews </h4>
+                    <div class="text">
+                        <p> No matter what you are looking for, Coursense has a review for you.
+                            Whether it's a course for a new career a hobby you have always wanted
+                            to take up or a skill to help you advance in your career - there's no
+                            denying that we've got the highest quality reviews for everything.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h4 class="heading4"> We Are All Pros </h4>
+                        <div class="text">
+                            <p> When reviewing courses, we scour databases from experts in the field
+                                to find the most qualified reviewers From there, they consider course
+                                quality, how easy it is to follow and its value for money.
+                            </p>
+                        </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ============= CONTACT SECTION ============= -->
+
+    <div id="contact" class="offset">
+
+		<footer>
+		<div class="row">
+
+			<div class="col-md-5">
+				<img src="img/logo.png" alt="logo">
+				<p>If you liked our service do not forget to follow us. 
+                    And if you have some implication to add at our service feel
+                     free to add a message. </p>
+				<strong>Contact Us on:</strong>
+				<p>coursense@gmail.com<br>or on:</p>
+				<img src ="img/contacts/facebook.png" alt="" title="">
+				<img src ="img/contacts/instagram.png" alt="" title="">
+				<img src ="img/contacts/twitter.png" alt="" title="">
+
+			</div>
+
+			<div class="col-md-7">
+				<h3>Contact Us</h3>
+
+				<form id="contact-form" method="post" action="contact.php">
+
+					<div class="messages"></div>
+					<div class="controls">
+
+						<div class="form-group">
+							<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name." required="required">
+						</div>
+
+						<div class="form-group">
+							<input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email." required="required">
+						</div>
+
+						<div class="form-group">
+							<textarea id="form_message" name="message" class="form-control" placeholder="Add your message." rows="4" required="required"></textarea>
+						</div>
+
+						<input type="submit" class="btn btn-outline-light btn-md" value="Send message">
+
+					</div>
+
+				</form>
+
+			</div>
+
+			<hr class="socket">
+			&copy; coursense2022
+
+		</div> <!--- End of Row -->
+		</footer> <!--- End of Footer -->
+
+		</div>
+
+        <!-- Top Scroll -->
+		
+			<a href="#home" class="top-scroll">
+				<i class="fas fa-angle-up"></i>
+			</a>
+
+        <!--------------------------------/ End of Contact Section /------------------------------>
+		
+		<!-----------------/ VSE JS DATOTEKE (JavaScript Source Files) /----------------->
+	
+		<!-- jQuery library from CDN (Content Delivery Network) -->
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		<!-- Popper JS from CDN (Content Delivery Network)-->
+		<script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+		<!-- Latest compiled BS4 JavaScript from CDN (Content Delivery Network) -->
+		<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+		<!-- Font Awesome Ikone-->
+		<script src = "https://use.fontawesome.com/releases/v5.8.2/js/all.js"></script>
+
+        <!-- Naša JS datoteka-->
+		<script src = "../javascript/script.js"></script>
+		
+		<!---------------/ END OF VSE JS DATOTEKE (JavaScript Source Files) /--------------->
+	
+
+</body>
+
+</html>

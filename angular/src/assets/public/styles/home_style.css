@@ -1,0 +1,673 @@
+/* Coursense/HomePage style.css
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Roboto+Condensed:wght@300&display=swap');
+/*
+Tittilium font
+modra: #151c48
+rumena: #F0b554
+*/
+
+body{
+    font-family: 'ElzaText', sans-serif;
+    background-color: #151c48;
+
+    overflow-x: hidden;
+}
+
+[class*="col-"]{
+    padding: 1rem;
+}
+
+.offset:before{
+    height: 4rem;
+    content: "";
+    display: block;
+    margin-top: -4rem;
+}
+
+
+/*========== NAVIGACIJA ===========*/
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding: 0.0rem 0rem;
+    background-color: #151c48ad;
+    transition: background-color 0.5s ease 0s;
+}
+
+.solid{
+    background: rgba(0,0,0,0.7) !important;
+    transition: background-color 1s ease 0s;
+}
+
+.navbar-brand img{
+    height: 2.7rem;
+}
+
+.navbar-nav .nav-link, .dropdown-item{
+    color:white;
+    padding-top:0.8rem;
+}
+
+.navbar-nav li{
+    padding-right:0.8rem;
+}
+
+.navbar-nav .label{
+    background-color: #F0b554;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.fa-bars{
+    color: #F0b554;
+    font-size:1.6rem;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active{
+    color: #F0b554;
+}
+.dropdown-menu{
+
+    padding: 0.0rem 0rem;
+    background-color: #151c48ad;
+    transition: background-color 0.5s ease 0s;
+    left: auto;
+    right: 0;
+}
+.dropdown-item{
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding: 0.0rem 0rem;
+}
+.dropdown-item:hover{
+    color: #F0b554;
+    background-color: #151c48ad;
+    transition: background-color 0.5s ease 0s;
+}
+/*============= HOME =============*/
+
+
+.video-background{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0,0,0, 0.7);
+}
+
+.video-wrap{
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#video{
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: -1000;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.caption {
+    z-index: 1;
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.caption h1 {
+    font-size: 4.5rem;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2.5rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 2rem;
+    text-transform: none;
+}
+
+.caption .btn-lg {
+    border-width: medium;
+    padding: .8rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    text-transform: none;
+}
+
+
+/*========== SEARCH =========*/
+
+.gradient{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0rem;
+    margin: 0;
+    background: linear-gradient(-45deg, #ee7752,
+    #F0b554,
+    #e73c7e, #9581F4, #151c48, #23d5ab);
+    animation: gradient 15s ease infinite;
+    background-position: center;
+    background-size: 300% 300%;
+    display: flex;
+
+    box-shadow: 0px 0px 20px black;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.sbar {
+    float: left;
+    margin-top: 8%;
+    margin-bottom: auto;
+    position: absolute;
+    height: 15%;
+    width: 100%;
+}
+
+.results-container{
+    width: 100%;
+    position: absolute;
+    margin-top: 18%;
+    max-height: 100vh;
+    flex-shrink: 0;
+    flex-grow: 20;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.search-bar{
+    overflow: auto;
+    position: relative;
+    background-color: #f0b45469;
+    display: flex;
+    margin-right: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    border-radius: 20px;
+}
+
+form.search-bar button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: none;
+    color: black;
+    font-size: 17px;
+    border: 1px;
+    border-left: none;
+    cursor: pointer;
+}
+
+.results{
+    background-color: #f0b45469;
+    border-radius: 40px;
+    min-width: 370px;
+    width: 20%;
+    height: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 2%;
+}
+
+.search-bar ::placeholder{
+    color: rgba(0, 0, 0, 0.649);
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 40px;
+    color: black;
+}
+
+
+
+/* ========== POPULAR ==========*/
+
+/*
+.gradient .wait{
+   width: 200px;
+   height: 60px;
+   position: absolute;
+   left: 50%;
+   margin-top: 20%;
+   transform: translate(-50%, -50%);
+}
+
+.circle{
+ width: 20px;
+ height: 20px;
+ position: absolute;
+ border-radius: 50%;
+ background-color: black;
+ left: 15%;
+ transform-origin: 50%;
+ animation: circle .5s alternate infinite ease;
+}
+
+@keyframes circle{
+ 0% {
+   top: 60px;
+   height: 5px;
+   border-radius: 50px 50px 25px 25px;
+   transform: scaleX(1.7);
+ }
+ 40% {
+   height: 20px;
+   border-radius: 50%;
+   transform: scaleX(1);
+ }
+ 100% {
+   top: 0%;
+ }
+}
+
+.circle:nth-child(2) {
+ left: 45%;
+ animation-delay: .2s;
+}
+
+.circle:nth-child(3) {
+ left: auto;
+ right: 15%;
+ animation-delay: .3s;
+}
+
+*/
+
+/*============ WHY US ===========*/
+
+h3.heading3{
+    font-size: 1.9rem;
+    font-weight:700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #F0b554;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+h4.heading4{
+    font-size: 1.5rem;
+    font-weight:700;
+    text-transform: uppercase;
+    color: #F0b554;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.heading-underline{
+    width:12rem;
+    height:0.2rem;
+    background-color: #F0b554;
+    margin:0 auto 2rem;
+}
+
+.jumbotron{
+    background-color: #151c484a;
+}
+
+.text{
+    text-align:left;
+    background-color: #151c484a;
+    color: white;
+}
+
+.fa-layers{
+    color: #1EBBA3;
+    margin:0 auto;
+    height: 6rem;
+}
+
+.text h3{
+    font-size: 2rem;
+    text-transform:uppercase;
+    padding-bottom:0.4rem;
+    font-weight:700;
+}
+
+.text p{
+    font-size:1.5rem;
+    padding-bottom:0.4rem;
+    font-weight:500;
+    letter-spacing: 0.1rem;
+    line-height: 2.5em;
+}
+
+
+
+
+/*============= CONTACT SECTION =============*/
+
+footer {
+    background: url('../html/img/books.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+footer .row {
+    background-color: #f0b45470;
+    padding: 1rem 2rem 3rem;
+}
+
+footer img {
+    height: 4rem;
+    margin: 1.5rem 0;
+}
+footer a {
+    color: white;
+}
+
+footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+    color: #1ebba3!important;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+}
+
+
+footer img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/*--- Contact Form --*/
+
+.form-group {
+    margin-bottom: 1.3rem;
+}
+
+
+.form-control {
+    background-color: #151c48;
+    border-radius: 0;
+    border: .15rem solid #151c48;
+    color: white!important;
+    font-size: 1.1rem;
+}
+
+.form-control:focus {
+    background: #151c4888;
+    border: .15rem solid #151c48;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #b2b5b8!important;
+}
+
+input.btn {
+    cursor: pointer;
+}
+
+hr.socket {
+    border-top: .2rem solid #151c48;
+    width: 100%;
+}
+
+/*============= TOP SCROLL =============*/
+
+.top-scroll svg.svg-inline--fa {
+    font-size: 5rem;
+    height: 1.9rem;
+    color: #F0b554;
+    background: #151c48;
+    border-radius: 10px;
+}
+
+a.top-scroll {
+    right: 1.2rem;
+    bottom: 1.2rem;
+    position: fixed;
+    opacity: .3;
+    z-index: 1000;
+    display: none;
+}
+
+a.top-scroll:hover {
+    opacity: 1;
+}
+
+
+/*========== PRILAGODITEV ZA RAZLIČNE VELIKOSTI ZASLONOV ===========*/
+
+/*Devices under 992px*/
+@media (max-width: 992px){
+
+    .carousel-item h1{
+        font-size: 3.5rem;
+        letter-spacing:0.2rem;
+        padding-bottom: 0.8rem;
+    }
+
+    .carousel-item h3{
+        font-size: 2.2rem;
+        padding-bottom:1.7rem;
+    }
+
+    .btn-lg{
+        padding: 0.7rem 1.2rem;
+        font-size:1rem;
+    }
+
+    /* tekst (caption) na videu*/
+    .caption h1 {
+        font-size: 3.5rem;
+        letter-spacing: .2rem;
+        padding-bottom: .8rem;
+    }
+    .caption h3 {
+        font-size: 2.2rem;
+        padding-bottom: 1.7rem;
+    }
+    .caption .btn-lg {
+        padding: .7rem 1.2rem;
+        font-size: 1rem;
+    }
+    .clients img {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+}
+
+
+/*Devices under 768px*/
+@media (max-width: 768px){
+
+    .carousel-item h1{
+        font-size: 2.7rem;
+        letter-spacing:0.15rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .carousel-item h3{
+        font-size: 1.7rem;
+        padding-bottom:1.2rem;
+    }
+
+    .btn-lg{
+        padding: 0.6rem 1.1rem;
+        font-size:1rem;
+    }
+
+    /* tekst (caption) na videu*/
+    .caption h1 {
+        font-size: 2.7rem;
+        letter-spacing: .15rem;
+        padding-bottom: .5rem;
+    }
+    .caption h3 {
+        font-size: 1.7rem;
+        padding-bottom: 1.2rem;
+    }
+    .caption .btn-lg {
+        padding: .6rem 1.1rem;
+    }
+}
+
+
+/*Devices under 576px*/
+@media (max-width: 576px){
+
+    .carousel-caption{
+        top:38.7%;
+    }
+
+    .carousel-item h1{
+        font-size: 1.9rem;
+        letter-spacing:0.1rem;
+    }
+
+    .carousel-item h3{
+        font-size: 1.2rem;
+        padding-bottom:1rem;
+    }
+
+    .btn-lg{
+        padding: 0.4rem 0.9rem;
+        font-size:0.9rem;
+    }
+
+    /* tekst (caption) na videu*/
+    .caption h1 {
+        font-size: 1.9rem;
+        letter-spacing: .1rem;
+        padding-bottom: .4rem;
+    }
+    .caption h3 {
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+    .caption .btn-lg {
+        padding: .4rem .9rem;
+        font-size: .9rem;
+    }
+}
+
+/*user profile*/
+.userProfile {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: "ElzaText", sans-serif;
+}
+.profilePicture > img {
+    height: auto;
+    max-width: 30%;
+}
+.vr {
+    height: 100%;
+    color: #F0b554;
+    width: 3px;
+}
+hr{
+    height: 3px;
+    background-color: #f0b554;
+    border: none;
+
+}
+.optionsBar {
+    color: white;
+
+}
+.title{
+    font-size: 1.3rem;
+    font-weight:800;
+    text-transform: uppercase;
+    color: #F0b554;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+}
+.subtitle{
+    font-size: 1.3rem;
+    font-weight:700;
+    text-transform: uppercase;
+    color: #F0b554;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+
+}
+
+.paragraph{
+    font-size:1rem;
+    padding-bottom:0.4rem;
+    font-weight:500;
+    letter-spacing: 0.1rem;
+    line-height: 2.5em;
+    text-align:left;
+    background-color: #151c484a;
+    color: white;
+}
+
+/*end user profile*/
+
+/*courses*/
+.subtitle_o{
+    margin-top: 10%;
+}
+/*end courses*/

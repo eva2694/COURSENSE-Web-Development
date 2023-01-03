@@ -1,0 +1,71 @@
+.gradient{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0rem;
+    margin: 0;
+    background: linear-gradient(-45deg, #ee7752,
+    #F0b554,
+    #e73c7e, #9581F4, #151c48, #23d5ab);
+    animation: gradient 15s ease infinite;
+    background-position: center;
+    background-size: 300% 300%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 20px black;
+
+}
+.profil-container {
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: auto;
+
+
+}
+
+.username {
+    font-size: xx-large;
+    background-color: rgba(3, 15, 77, 0.22);
+    border-radius: 10px;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.occupation {
+    font-size: xx-large;
+    background-color: rgba(3, 15, 77, 0.22);
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.gumbEdit{
+    margin-right: auto;
+    margin-left: 90%;
+    margin-top: 2%;
+    background-color: white;
+}
+
+.bio {
+    font-size: x-large;
+    background-color: rgba(3, 15, 77, 0.22);
+    padding-bottom: 5%;
+    padding: 5%;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.gumbObjavi{
+    background-color: white;
+    border-color: #F0b554;
+    border-width: 2px;
+    font-weight: bold;
+    color: #F0b554;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+

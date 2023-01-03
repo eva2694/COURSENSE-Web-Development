@@ -1,0 +1,54 @@
+/*
+Tittilium font
+151c48 hex  // modre
+F0b554 hex // rumene
+*/
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+body {
+    background-image: linear-gradient(180deg, #151c48, #253075);
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+label {
+    color: white;
+}
+
+.badge{
+    background-color: #f0b554;
+    color: white;
+}
+
+.col code {
+    color: #f0b554;
+}
+
+button {
+    color: #f0b554;
+}
+
+.btn{
+    background-color: #f0b554;
+}
+
+footer {
+    color: white;
+    padding-left: 2%;
+}
+
+footer .text-footer {
+    font-size: 1.3rem;
+}
+
+.mail {
+    font-style: italic;
+}

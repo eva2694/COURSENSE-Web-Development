@@ -1,0 +1,17 @@
+[
+  {
+    "_id": {
+      "$oid": "638679da92574eb190ee5b60"
+    },
+    "email":"ena@mail.com",
+    "name": "user1",
+    "hash": "",
+    "salt": "",
+    "profile": {
+        "firstName": "Ena",
+        "lastName": "Prva",
+        "bio": "This is me!",
+        "occupation": "Unemployed"
+    }
+  }
+]

@@ -1,0 +1,49 @@
+<div class="login">
+    <div id="form" class="container" method="POST">
+        <h1>Login</h1>
+        <form (ngSubmit)="onLoginSubmit()" autocomplete="off">
+            <div *ngIf="formError" class="form-group">
+                <div class="alert alert-dark p-2 mt-4" role="alert">
+                    <i class="fas fa-exclamation-triangle pe-2"></i>{{ formError }}
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label mb-1 mt-3">E-mail address</label>
+                <input
+                        type="text"
+                        class="form-control form-control-sm"
+                        id="email"
+                        name="email"
+                        placeholder="Enter e-mail address"
+                        [(ngModel)]="credentials.email"
+                />
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label mb-1 mt-3">Password</label>
+                <input
+                        type="password"
+                        class="form-control form-control-sm"
+                        id="password"
+                        name="password"
+                        placeholder="Enter password"
+                        [(ngModel)]="credentials.password"
+                />
+            </div>
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-sm btn-primary me-2">
+                    <i class="fa-regular fa-circle-check pe-2">Login</i>
+                </button>
+            </div>
+        </form>
+        <p [routerLink]="['/register']">Sign up now!</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+

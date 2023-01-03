@@ -1,0 +1,55 @@
+{
+  "name": "coursense",
+  "version": "1.0.0",
+  "description": "Course review site",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "local-import-courses": "mongoimport --db CourSense --collection Courses --mode upsert --upsertFields id --jsonArray --file data/courses.json",
+    "docker-delete-courses": "docker exec -it coursense-mongo-db bash -c \"mongosh CourSense --eval 'db.Courses.deleteMany({})'\"",
+    "docker-import-courses": "docker cp ./data/courses.json coursense-mongo-db:/courses.json; docker exec -it coursense-mongo-db mongoimport --db CourSense --collection Courses --mode upsert --upsertFields id --jsonArray --file courses.json; docker exec -it coursense-mongo-db rm -rf courses.json",
+    "docker-view-courses": "docker exec -it coursense-mongo-db bash -c \"mongosh CourSense --eval 'db.Courses.find()'\"",
+    "atlas-import-courses": "docker exec -it coursense-mongo-db bash -c \"mongodump -h localhost -d CourSense -o ./\"; docker exec -it coursense-mongo-db bash -c \"mongorestore --drop --uri mongodb+srv://vinko@coursense.fy2fgwq.mongodb.net ./CourSense/Courses.bson\"; docker exec -it coursense-mongo-db bash -c \"rm -rf ./CourSense\"",
+    "atlas-open": "docker exec -it coursense-mongo-db bash -c \"mongosh \\\"mongodb+srv://coursense.fy2fgwq.mongodb.net/CourSense\\\" --username vinko"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SP-2022-2023/LP-06.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SP-2022-2023/LP-06/issues"
+  },
+  "homepage": "https://github.com/SP-2022-2023/LP-06#readme",
+  "dependencies": {
+    "@angular/core": "^15.0.4",
+    "axios": "^1.2.1",
+    "bootstrap": "^3.4.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-jwt": "^7.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "logger": "^0.0.1",
+    "mongoose": "^6.8.0",
+    "mongoose-unique-validator": "^3.1.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "rxjs": "^7.6.0",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.6.0"
+  }
+}

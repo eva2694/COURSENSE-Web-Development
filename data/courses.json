@@ -1,0 +1,851 @@
+[
+  {
+    "_id": {
+      "$oid": "63867a783fd3ff6607602134"
+    },
+    "id": "0",
+    "title": "How To Milk a Cow",
+    "description": "Today I show you how to correctly milk a cow. Milking a cow can be an extremely dangerous task if you don't know how to do it correctly, so it's important that you learn from me; a trained professional milker (All animals, including grandparents) . How do you think farmers learnt to milk their cattle? I taught them. \n\nWhen it comes to milking cattle there are quite a few popular methods, such as:\n1. Milking a Cow by Hand\n2. Milking a Cow by Machine\n3. Milking a Cow by Foot\n4. Milking a Cow by Big Toe\n5. Milking a Cow by Sloth\n6. Milking a Cow by Erect Teat\n\nAll of which are covered and explained in this video.",
+    "authors": [
+      "HowToBasic - YouTube"
+    ],
+    "price": 0,
+    "language": "English",
+    "category": "Lifestyle",
+    "keywords": [
+      "cow",
+      "farming",
+      "agriculture"
+    ],
+    "image": "cow",
+    "accessURL": "https://www.youtube.com/watch?v=ziITe09ahUs&ab_channel=HowToBasic",
+    "avg_rating": 2.5,
+    "reviews": [
+      {
+        "_id": {
+          "$oid": "63867a81c397091d585705ac"
+        },
+        "author": "testUser",
+        "rating": 4,
+        "body": "This is by far the most informative and well structured tutorial I have ever seen"
+      },
+      {
+        "_id": {
+          "$oid": "63867a8fab3c16ab777bf0c2"
+        },
+        "author": "testUser",
+        "rating": 1,
+        "body": "how the duck can i justify having this in my browser history"
+      }
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "63867aa1bea30e3e0ca7b2a4"
+    },
+    "id": "1",
+    "title": "How NOT to Make an Electric Guitar (The Hazards of Electricity)",
+    "description": "Don't make your electric guitar this way! Just learn to be safe with electricity...Commemorate the Forbidden Guitar with its merch",
+    "authors": [
+      "ElectroBOOM - YouTube"
+    ],
+    "price": 0,
+    "language": "English",
+    "category": "Music",
+    "keywords": [
+      "instruments",
+      "crafts",
+      "electric guitar",
+      "diy"
+    ],
+    "image": "guitar",
+    "accessURL": "https://www.youtube.com/watch?v=TwIvUbOhcKE&ab_channel=ElectroBOOM",
+    "avg_rating": 4,
+    "reviews": [
+      {
+        "_id": {
+          "$oid": "63867aa8565a4d0e2429d8c4"
+        },
+        "author": "testUser",
+        "rating": 4,
+        "body": "This guy is the BEST How NOT to do This type of content creator."
+      }
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "63867ab1804c4722c292d07a"
+    },
+    "id": "2",
+    "title": "Learn C# Programming (In Ten Easy Steps)",
+    "description": "The simplest way to learn C# programming.",
+    "authors": [
+      "Huw Collingbourne"
+    ],
+    "price": 9.99,
+    "language": "English",
+    "category": "Development",
+    "keywords": [
+      "C#",
+      "Programming"
+    ],
+    "image":"proggraming",
+    "accessURL": "https://www.udemy.com/course/learn-c-sharp-programming-in-ten-easy-steps/",
+    "avg_rating": 3,
+    "reviews": [
+      {
+        "_id": {
+          "$oid": "63867ac7cf2d258fee4a565f"
+        },
+        "author": "testUser",
+        "rating": 3,
+        "body": "Not using the most up to date version of Visual Studio, i.e. 2022"
+      }
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "63867acfb7f8400bfeef8269"
+    },
+    "id": "3",
+    "title": "How to Be Psychic - Psychic Development for Beginners",
+    "description": "CERTIFICATE COURSE: Tap into Your Natural Psychic Ability to Give Psychic Readings for Spiritual Guidance or Profit",
+    "authors": [
+      "Sal Jade"
+    ],
+    "price": 9.99,
+    "language": "English",
+    "category": "Lifestyle",
+    "keywords": [
+      "psychic",
+      "spiritual"
+    ],
+    "image": "psychic",
+    "accessURL": "https://www.udemy.com/course/how-to-be-psychic/",
+    "avg_rating": 5,
+    "reviews": [
+      {
+        "_id": {
+          "$oid": "63867ad76e72442a9d16be6c"
+        },
+        "author": "testUser",
+        "rating": 5,
+        "body": "What a great course, so much generous content on becoming a psychic. I will be following up on practicing the techniques suggested by using the support pdf documents which are very helpful. I was not considering on using oracle cards and doing readings for others but now I am interested."
+      }
+    ]
+  },
+  
+  
+  {
+    "_id": {
+      "$oid": "639f81e8e05dda85b94fcfcc"
+    },
+    "id": "4",
+    "title": "Python for Beginners - Learn Programming from scratch",
+    "description": "Python For Beginners : This course is meant for absolute beginners in programming or in python.",
+    "authors": [
+      "Edvian Diaz"
+    ],
+    "price": 14,
+    "language": "English",
+    "category": "Programming",
+    "keywords": [
+      "Programming",
+      "Phyton"
+    ],
+    "image": "sp04",
+    "accessURL": "https://www.udemy.com/course/python-for-beginners-learn-programming-from-scratch/",
+    "avg_rating": 2,
+    "reviews": [
+
+    ]
+
+  },
+
+  {
+    "_id": {
+      "$oid": "639f8444e05dda85b94fcfce"
+    },
+
+    "id": "5",
+    "title": "Learn C# Programming (In Ten Easy Steps)",
+    "description": "The simplest way to learn C# programming.",
+    "authors": [
+      "Huw Diaz"
+    ],
+    "price": 14,
+    "language": "English",
+    "category": "Programming",
+    "keywords": [
+      "Programming",
+      "c#"
+    ],
+    "image": "sp05",
+    "accessURL": "https://www.udemy.com/course/learn-c-sharp-programming-in-ten-easy-steps/",
+    "avg_rating": 2,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f8511e05dda85b94fcfcf"
+    },
+
+    "id": "6",
+    "title": "Java Swing (GUI) Programming: From Beginner to Expert",
+    "description": "Learn how to create desktop and Internet GUI Java programs and take your Java programming to the next level.",
+    "authors": [
+      "John Purcel"
+    ],
+    "price": 14,
+    "language": "English",
+    "category": "Programming",
+    "keywords": [
+      "Programming",
+      "java"
+    ],
+    "image": "sp06",
+    "accessURL": "https://www.udemy.com/course/java-swing-complete/",
+    "avg_rating": 4.3,
+    "reviews": [
+
+    ]
+  },
+
+  {
+      "_id": {
+        "$oid": "639f85c8e05dda85b94fcfd1"
+      },
+      "id": "7",
+      "title": "C++: From Beginner to Expert",
+      "description": "Designed for people who don't have any knowledge about the programming and want to program in C++",
+      "authors": [
+        "Janez Novak"
+      ],
+      "price": 14,
+      "language": "English",
+      "category": "Programming",
+      "keywords": [
+        "Programming",
+        "c++"
+      ],
+      "image": "sp07",
+      "accessURL": "https://www.udemy.com/course/video-course-c-from-beginner-to-expert/",
+      "avg_rating": 3.3,
+      "reviews": [
+
+      ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f8883feeef956afe3a481"
+    },
+    "id": "8",
+    "title": "Learn Perl 5 By Doing It    ",
+    "description": "Learn Perl by actually creating useful, working Perl programs for everything from web scraping to fixing your data.",
+    "authors": [
+      "John Novak"
+    ],
+    "price": 17.55,
+    "language": "English",
+    "category": "Programming",
+    "keywords": [
+      "Programming",
+      "Perl"
+    ],
+    "image": "sp08",
+    "accessURL": "https://www.udemy.com/course/perltutorial/",
+    "avg_rating": 3.3,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f8a02fc36e50b7c6dbd02"
+    },
+    "id": "9",
+    "title": "Javascript for Beginners",
+    "description": "Learn javascript online and supercharge your web design with this Javascript for beginners training course.",
+    "authors": [
+      "Dollar Design"
+    ],
+    "price": 3.99,
+    "language": "English",
+    "category": "Programming",
+    "keywords": [
+      "Programming",
+      "Javascript"
+    ],
+    "image": "sp09",
+    "accessURL": "https://www.udemy.com/course/beginning-javascript/",
+    "avg_rating": 2.2,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f8bad6e8e12ddbbcacb46"
+    },
+    "id": "10",
+    "title": "Content Writing & Copy Writing For SEO and Sales",
+    "description": "Content Writing, Copy Editing, Proofreading and Copy Writing - Freelance Writing for SEO Copywriting and Sales    ",
+    "authors": [
+      "John zrodika"
+    ],
+    "price": 99.99,
+    "language": "English",
+    "category": "Copywriting",
+    "keywords": [
+      "Copywriting",
+      "content"
+    ],
+    "image": "sp10",
+    "accessURL": "https://www.udemy.com/course/unofficial-copywriting-techniques-for-udemy-instructors/",
+    "avg_rating": 4.2,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f8c839d7d6034c338db92"
+    },
+    "id": "11",
+    "title": "Copywriting Headline Masterclass",
+    "description": "Content Writing, Copy Editing, Proofreading and Copy Writing - Freelance Writing for SEO Copywriting and Sales    ",
+    "authors": [
+      "John szisezane"
+    ],
+    "price": 88.99,
+    "language": "English",
+    "category": "Copywriting",
+    "keywords": [
+      "Copywriting",
+      "content",
+      "SEO"
+    ],
+    "image": "sp11",
+    "accessURL": "https://www.udemy.com/course/copywriting-how-to-write-copywriting-headlines/",
+    "avg_rating": 4.6,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f8d472069531c5d64d247"
+    },
+    "id": "12",
+    "title": "Write to Ignite - Master the Art of Sales Copy & Copywriting",
+    "description": "Writing sales copy is critical to content marketing/writing. Learn copywriting today and write copy that gets the click.",
+    "authors": [
+      "Vladimir Drugi"
+    ],
+    "price": 88.56,
+    "language": "English",
+    "category": "Copywriting",
+    "keywords": [
+      "Copywriting",
+      "marketing",
+      "SEO"
+    ],
+    "image": "sp12",
+    "accessURL": "https://www.udemy.com/course/write-to-ignite-persuasive-copy-writing-course/",
+    "avg_rating": 4.8,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f8e04a814c8312b0ac4e5"
+    },
+    "id": "13",
+    "title": "Copywriting - The Psychology Of Your Irresistible Offer",
+    "description": "Add These 8 Psychological Elements To Your Offer And Skyrocket Your Conversions Almost Overnight",
+    "authors": [
+      "Vladimir Tretji"
+    ],
+    "price": 78.56,
+    "language": "English",
+    "category": "Copywriting",
+    "keywords": [
+      "Copywriting",
+      "marketing",
+      "content"
+    ],
+    "image": "sp13",
+    "accessURL": "https://www.udemy.com/course/copywriting-the-psychology-of-your-irresistible-copywriting-offer/",
+    "avg_rating": 4.4,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f8e66dc199cfa05397dfb"
+    },
+    "id": "14",
+    "title": "Copywriting: Fundamentals For Beginners",
+    "description": "The Basics of Writing to Sell In 2022!",
+    "authors": [
+      "Mason Komaj"
+    ],
+    "price": 74.99,
+    "language": "English",
+    "category": "Copywriting",
+    "keywords": [
+      "Copywriting",
+      "marketing",
+      "content"
+    ],
+    "image": "sp14",
+    "accessURL": "https://www.udemy.com/course/copywriting-fundamentals-for-beginners/",
+    "avg_rating": 4.9,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f8eba7176068b09cba851"
+    },
+    "id": "15",
+    "title": "Alan Sharpe's 30-hr Copywriting Masterclass & Coaching: 2022",
+    "description": "Learn from one of today's top Fortune 500 copywriters. Master top-paying copywriting assignments. 30+ years of wisdom.",
+    "authors": [
+      "Alan Sherpa"
+    ],
+    "price": 78.99,
+    "language": "English",
+    "category": "Copywriting",
+    "keywords": [
+      "Copywriting"
+    ],
+    "image": "sp15",
+    "accessURL": "https://www.udemy.com/course/alan-sharpe-copywriting-masterclass/",
+    "avg_rating": 5,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f8f2335357631ec83b5d9"
+    },
+    "id": "16",
+    "title": "Browsers to Buyers: 21 Powerful Website Copywriting Hacks",
+    "description": "Grow Your Business + Boost Your Revenue with This Checklist of Timeless Conversion Copywriting Tactics",
+    "authors": [
+      "Tamsin Komaj"
+    ],
+    "price": 14.99,
+    "language": "English",
+    "category": "Copywriting",
+    "keywords": [
+      "marketing",
+      "content"
+    ],
+    "image": "sp16",
+    "accessURL": "https://www.udemy.com/course/browsers-to-buyers/",
+    "avg_rating": 3.9,
+    "reviews": [
+
+    ]
+  },
+  
+  {
+    "_id": {
+      "$oid": "639f8f799046392ccae294ca"
+    },
+    "id": "17",
+    "title": "[2022] Complete Copywriting Course From Beginner To Advance",
+    "description": "In This Course You Will Learn To Write The Best Copy, Get Copywriting Gigs, & Consistent Inflow of High-Paying Customers",
+    "authors": [
+      "Uskoro Finisher"
+    ],
+    "price": 24.99,
+    "language": "English",
+    "category": "Copywriting",
+    "keywords": [
+      "marketing",
+      "Copywriting"
+    ],
+    "image": "sp17",
+    "accessURL": "udemy.com/course/maginesolutions001/",
+    "avg_rating": 3.7,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f8fd61a079aee56499a38"
+    },
+    "id": "18",
+    "title": "Copywriting: Persuasive Writing Ft. Two Forbes Writers",
+    "description": "Forbes Contributors Renee Sylvestre-Williams & Matthew Rolnick offer a Comprehensive Guide to Persuasive Copywriting",
+    "authors": [
+      "Uskoro Starhter"
+    ],
+    "price": 44.88,
+    "language": "English",
+    "category": "Copywriting",
+    "keywords": [
+      "marketing",
+      "Copywriting"
+    ],
+    "image": "sp18",
+    "accessURL": "https://www.udemy.com/course/persuasive-writing-copywriting/",
+    "avg_rating": 3.4,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f902d7588798c6dba0e66"
+    },
+    "id": "19",
+    "title": "Etsy Printables Business Success - Step-By-Step Guide",
+    "description": "Create an online business to earn passive income",
+    "authors": [
+      "Marc Nisekonch"
+    ],
+    "price": 11.44,
+    "language": "English",
+    "category": "Copywriting",
+    "keywords": [
+      "marketing",
+      "Copywriting"
+    ],
+    "image": "sp19",
+    "accessURL": "https://www.udemy.com/course/etsy-printables-business-success-step-by-step-guide/",
+    "avg_rating": 3.6,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f912bbd115c620e71bad7"
+    },
+    "id": "20",
+    "title": "Somatics: Tune in to your Body & enjoy Freedom of Movement",
+    "description": "An introduction to Somatic exercises to help improve your emotional, mental and physical health",
+    "authors": [
+      "Tomas Idegasss"
+    ],
+    "price": 12.44,
+    "language": "English",
+    "category": "Fitness",
+    "keywords": [
+      "fitness",
+      "health"
+    ],
+    "image": "sp20",
+    "accessURL": "https://www.udemy.com/course/somatics-tune-in-to-your-body-enjoy-freedom-of-movement/",
+    "avg_rating": 1.6,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f91eebfd89d03b64aef50"
+    },
+    "id": "21",
+    "title": "Complete Fitness Trainer Certification: Beginner To Advanced",
+    "description": "Become A Fitness Coach: Create Muscle Growth & Fat Loss Workouts, Build A Fitness Training Business & Be A Health Expert",
+    "authors": [
+      "Tomas Idenazaj"
+    ],
+    "price": 9.44,
+    "language": "English",
+    "category": "Fitness",
+    "keywords": [
+      "fitness",
+      "health"
+    ],
+    "image": "sp21",
+    "accessURL": "https://www.udemy.com/course/complete-fitness-trainer-certification-beginner-to-advanced/",
+    "avg_rating": 1.7,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f92238771c7323b813cd6"
+    },
+    "id": "22",
+    "title": "Become a SuperHuman: Naturally & Safely Boost Testosterone",
+    "description": "Hack diet, exercise, & habits to safely boost your testosterone; the motivation, fitness, health, & happiness super drug",
+    "authors": [
+      "Gorazd Izgozda"
+    ],
+    "price": 4.20,
+    "language": "English",
+    "category": "Fitness",
+    "keywords": [
+      "fitness",
+      "health"
+    ],
+    "image": "sp22",
+    "accessURL": "https://www.udemy.com/course/become-a-superhuman-naturally-safely-boost-testosterone/",
+    "avg_rating": 1.2,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f926e08e1333779fdf08e"
+    },
+    "id": "23",
+    "title": "Internationally Accredited Diploma Certificate in Fitness",
+    "description": "Learn how to Create Gym & Bodybuilding Workouts that help boost testosterone, muscle building and/or lose weight",
+    "authors": [
+      "Sportni Sasa"
+    ],
+    "price": 1.99,
+    "language": "English",
+    "category": "Fitness",
+    "keywords": [
+      "fitness",
+      "health"
+    ],
+    "image": "sp23",
+    "accessURL": "https://www.udemy.com/course/internationally-accredited-diploma-certificate-in-fitness/",
+    "avg_rating": 1.1,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f931d827523b055ca14b2"
+    },
+    "id": "24",
+    "title": "Science-Based Bodyweight Workout: Build Muscle Without A Gym",
+    "description": "Science-Based Bodyweight Workout: Build Muscle Without A Gym",
+    "authors": [
+      "Sportni Sasho"
+    ],
+    "price": 2.99,
+    "language": "English",
+    "category": "Fitness",
+    "keywords": [
+      "fitness",
+      "health"
+    ],
+    "image": "sp24",
+    "accessURL": "https://www.udemy.com/course/build-muscle-without-a-gym-science-based-bodyweight-workout/",
+    "avg_rating": 1.5,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f93605dfff780a9e990cb"
+    },
+    "id": "25",
+    "title": "Practical Music Theory 101 For Guitar",
+    "description": "Learn Basic Music Theory For Guitar And Master The Fretboard With Ease!",
+    "authors": [
+      "Ed Cherron"
+    ],
+    "price": 66.99,
+    "language": "English",
+    "category": "Music",
+    "keywords": [
+      "music",
+      "guitar"
+    ],
+    "image": "sp25",
+    "accessURL": "https://www.udemy.com/course/music-theory-101-for-guitar/",
+    "avg_rating": 3.2,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f93605dfff780a9e990ca"
+    },
+    "id": "26",
+    "title": "Beginner Lead Blues Guitar Lessons, Electric Guitar Soloing",
+    "description": "Guitar: Blues Guitar Licks, Acoustic Guitar, Music Theory Guitar, Guitar Theory, Guitarra, Learn Guitar, Guitar Beginner",
+    "authors": [
+      "Elvis Press"
+    ],
+    "price": 77.99,
+    "language": "English",
+    "category": "Music",
+    "keywords": [
+      "music",
+      "guitar"
+    ],
+    "image": "sp26",
+    "accessURL": "https://www.udemy.com/course/beginner-lead-blues-guitar/",
+    "avg_rating": 3.6,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f945ff7979ec0a994d942"
+    },
+    "id": "27",
+    "title": "Classical Guitar Essentials - The Basics Part 2",
+    "description": "Build a strong foundation on Classic Guitar with a proven method",
+    "authors": [
+      "Bojan Cvetaca"
+    ],
+    "price": 87.99,
+    "language": "English",
+    "category": "Music",
+    "keywords": [
+      "music",
+      "guitar"
+    ],
+    "image": "sp27",
+    "accessURL": "https://www.udemy.com/course/classical-guitar-essentials-the-basics-part-2/",
+    "avg_rating": 3.9,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f94cdc31866611cb38ef8"
+    },
+    "id": "28",
+    "title": "Beginner Guitar Lessons: Learn Guitar - The Complete Guide",
+    "description": "Guitar Lessons For Every Beginner. Acoustic & Electric Guitar. Guitar Chords, Technique, Songs, Scales & Songwriting."    ,
+    "authors": [
+      "Magnifikanto"
+    ],
+    "price": 85.99,
+    "language": "English",
+    "category": "Music",
+    "keywords": [
+      "music",
+      "guitar"
+    ],
+    "image": "sp28",
+    "accessURL": "https://www.udemy.com/course/learn-guitar-the-complete-beginners-guide/",
+    "avg_rating": 3.8,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f9509b68cf3edfc9d6761"
+    },
+    "id": "29",
+    "title": "Complete Fingerstyle Guitar - Advanced Fingerpicking",
+    "description": "Advanced Fingerpicking Guitar Lessons: Step-by-step Fingerstyle Guitar with Joe Robinson"    ,
+    "authors": [
+      "Petar Grasho"
+    ],
+    "price": 35.99,
+    "language": "English",
+    "category": "Music",
+    "keywords": [
+      "music",
+      "guitar"
+    ],
+    "image": "sp29",
+    "accessURL": "https://www.udemy.com/course/complete-fingerstyle-guitar-advanced/",
+    "avg_rating": 2.8,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f95de9ee3e50b12f20364"
+    },
+    "id": "30",
+    "title": "Ultimate Adobe Photoshop Training: From Beginner to Pro",
+    "description": "Master Adobe Photoshop CC without any previous knowledge with this easy-to-follow course"    ,
+    "authors": [
+      "Xob Chlovek"
+    ],
+    "price": 25.99,
+    "language": "English",
+    "category": "Design",
+    "keywords": [
+      "photoshop",
+      "photography"
+    ],
+    "image": "sp30",
+    "accessURL": "https://www.udemy.com/course/ultimate-photoshop-training-from-beginner-to-pro/",
+    "avg_rating": 4.8,
+    "reviews": [
+
+    ]
+  },
+
+  {
+    "_id": {
+      "$oid": "639f9603c7d72ab0e39a7ae0"
+    },
+    "id": "31",
+    "title": "Photoshop Master Course: From Beginner to Photoshop Pro",
+    "description": "This Adobe Photoshop Beginner Course will teach a Beginner Photoshop user all essentials of Adobe Photoshop C",
+    "authors": [
+      "Xob Drugichlovek"
+    ],
+    "price": 55.99,
+    "language": "English",
+    "category": "Design",
+    "keywords": [
+      "photoshop",
+      "design"
+    ],
+    "image": "sp31",
+    "accessURL": "https://www.udemy.com/course/supreme-photoshop-training-from-beginner-to-expert/",
+    "avg_rating": 4.8,
+    "reviews": [
+
+    ]
+  }
+
+
+  
+]
+

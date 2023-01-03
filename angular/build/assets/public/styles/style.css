@@ -1,0 +1,125 @@
+body, h1{
+    margin: 0;
+}
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+.landing {
+    background-image: linear-gradient(180deg,#151c48,#253075);
+    height: 100vh;
+}
+.logo {
+    font-family: titlium,Arial, helvetica;
+    font-size: 150px;
+    color:white
+}
+
+body {
+    background-image: linear-gradient(180deg, #151c48, #253075);
+    height: 100vh;
+}
+
+h2, h3 {
+    color: white;
+}
+.logo_pad {
+    padding-left: 30%;
+}
+
+.slogan_align {
+    text-align: right;
+}
+.modal-content {
+    background-color: #151c48 !important;
+}
+
+.right_div h2,
+.right_div h3 {
+    text-align: left;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+#line {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 80%;
+    background-color: #f0b555;
+    height: 3px;
+    text-align: center;
+    margin-bottom: 9%;
+    opacity: 1;
+
+}
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+
+    background-color: #f0b555;
+    height: 3px;
+    text-align: center;
+
+}
+.div_shadow {
+    box-shadow: 10px 10px 200px yellow;
+    float: left;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+.userProfile {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.profilePicture > img {
+    height: auto;
+    max-width: 20%;
+}
+.vr {
+    height: 100%;
+    color: #F0b554;
+    width: 1px;
+}
+hr{
+    height: 1px;
+    background-color: #f0b554;
+    border: none;
+}
+.navbar{
+    background-color: #F0b554;
+    color: dimgray;
+}
+.dropdown-menu {
+    background-color: #F0b554;
+}
+.dropdown-item {
+    background-color: #F0b554;
+    color: #464540;
+}
+
+.dropdown-item:hover {
+    background-color: #F0b554;
+    color: black;
+}
+
+.paragraph {
+    margin-left: 4%;
+}
+
+.subtitle {
+    margin-left: 2%;
+}
+
+.nav .nav-item .nav-link {
+    color: lightgray;
+}
+
+.nav .nav-item .nav-link:hover {
+    color: #F0b554;
+}

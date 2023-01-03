@@ -1,0 +1,296 @@
+
+.naslov{
+    padding-top: 7%;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+    margin-left: 5%;
+
+}
+
+.avtor{
+    padding-top: 7%;
+    color: white;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    font-family: "Raleway ExtraBold", Tittilium, Arial, helvetica, sans-serif;
+    margin-left: 5%;
+}
+.posamezenTag{
+    text-align: center;
+    padding: 1px 0;
+    border-radius: 10px;
+    background-color: #273888;
+    width: 100px;
+
+    margin: 10px;
+
+    font-weight: bold;
+
+}
+.tagi{
+    color: white;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.slika{
+    margin-left: 5%;
+}
+
+.keywords{
+    padding-left: 5%;
+    color: white;
+}
+
+.navpicnica{
+    vertical-align: middle;
+
+
+}
+.slikaReviewerja{
+
+}
+
+.description{
+    font-family: Raleway, Tittilium, Arial, helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    padding-left: 5%;
+    text-align: justify;
+}
+
+
+.spodnjiPosamezenTag{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    background-color: #262d35;
+    width: auto;
+    display: inline-block;
+    margin: 5px;
+    font-weight: bold;
+}
+/*naredi da ko hoveras na tag, se obarva background rumeno*/
+
+.csOcena {
+    background-color:#F0b554;
+}
+.textOcena{
+    font-weight: bold;
+    color: white;
+    margin-left: 5%;
+
+}
+
+.progress1 {
+    height: 20px;
+    border-radius: 50px;
+    background-color: #151c48;
+    border: 2px solid #F0b554;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.progress2 {
+    height: 20px;
+    border-radius: 50px;
+    background-color: #151c48;
+    border: 2px solid white;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.zvezdaJa{
+    color: #F0b554;
+    scale: 130%;
+    margin: 3px;
+}
+.zvezdaNe{
+    color: #96a2ad;
+    scale: 130%;
+    margin: 3px;
+
+}
+.imeReviewerja{
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    display: inline-block;
+    /*  background-color: mediumorchid; */
+}
+.opisReviewa {
+    color: #96a2ad;
+    font-size: large;
+    text-align: justify;
+}
+.ocenaReviewerja{
+    /* background-color: #F0b554;*/
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    float: bottom;
+    margin-left: 20px;
+
+}
+.slikaReviewerja{
+    /*  background-color: #273888;*/
+    display: inline-block;
+
+    position: relative;
+
+    float: right;
+    padding: 10px;
+    margin: 3px;
+
+}
+
+.prodajalcevaOcena{
+    background-color: white;
+
+}
+.linija{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.naslovRatings{
+    font-weight: bold;
+    margin-left: 5%;
+
+}
+.ocenaInIme{
+    /*background-color: aqua;*/
+    display: inline-block;
+
+}
+
+.review{
+    background-color: white;
+    border-radius: 40px;
+    margin: 5%;
+    margin-left: 3%;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+
+
+
+
+
+.gumbShowReviews:hover{
+    font-weight: bold;
+
+}
+.gumbShowReviews{
+    color: white;
+}
+.gumbDiv{
+    margin-left: 5%;
+    border-color: #F0b554;
+}
+.naslovRatings {
+    color: white;
+}
+
+.seznamReview{
+    list-style: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.pokazan{
+
+}
+.skriti{
+    display: none;
+}
+
+.zvezdaDa1:hover{
+    color: #F0b554;
+    scale: 130%;
+    margin: 3px;
+}
+.zvezdaDa2:hover{
+    color: #F0b554;
+    scale: 130%;
+    margin: 3px;
+}
+.zvezdaDa3:hover{
+    color: #F0b554;
+    scale: 130%;
+    margin: 3px;
+}
+.zvezdaDa4:hover{
+    color: #F0b554;
+    scale: 130%;
+    margin: 3px;
+}
+.zvezdaDa5:hover{
+    color: #F0b554;
+    scale: 130%;
+    margin: 3px;
+
+}
+.imeUserja{
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    display: inline-block;
+    /*  background-color: mediumorchid; */
+}
+
+.gumbObjavi{
+    background-color: white;
+    border-color: #F0b554;
+    border-width: 2px;
+    font-weight: bold;
+    color: #F0b554;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 20px;
+
+}
+
+.gumbOdpri{
+    background-color: #151c48;
+    border-color: #F0b554;
+    border-width: 2px;
+    font-weight: bold;
+    color: #F0b554;
+    border-radius: 10px;
+    margin: 5%;
+    margin-top: 1px;
+    margin-bottom: 6px;
+
+}
+.scrolltoTop{
+    background-color: #151c48;
+    border-color: #F0b554;
+    border-width: 2px;
+    font-weight: bold;
+    color: #F0b554;
+    border-radius: 10px;
+    margin: 5%;
+    margin-top: 1px;
+    margin-bottom: 6px;
+
+}
+
+.reviewUserja{
+    background-color: white;
+    border-radius: 40px;
+    margin: 5%;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.slika > span img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    max-height: fit-content;
+}

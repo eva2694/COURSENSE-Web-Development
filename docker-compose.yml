@@ -1,0 +1,22 @@
+version: "3.5"
+services:
+  node-api:
+    container_name: coursense-app
+    restart: always
+    ports:
+      - "3000:3000"
+    image: coursense-server
+    build: ./
+    networks:
+      - coursense-network
+  mongo-db:
+    image: mongo
+    container_name: coursense-mongo-db
+    ports:
+      - "27017-27019:27017-27019"
+    networks:
+      - coursense-network
+networks:
+  coursense-network:
+    name: coursense-network
+    driver: bridge

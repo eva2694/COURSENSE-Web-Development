@@ -1,0 +1,121 @@
+<div class="gradient" id="profile">
+  <!--<button [routerLink]="['/signup']">Log in</button>-->
+  <div class="profil-container" *ngIf="user">
+
+    <div class="row">
+      <a
+
+              class="btn btn-outline-light gumbEdit"
+              (click)="openModal(profileEdit)"
+      ><i></i
+      ><span>Edit Profile</span></a
+      >
+
+      <div class = "col-md-6">
+        <div class = "username">
+          <h2 class="text-center subtitle">Name</h2>
+          <p>{{user.name}}</p>
+        </div>
+
+        <div class = "occupation">
+          <h2 class="text-center subtitle">Occupation</h2>
+          <p>{{user.profile.occupation}}</p>
+        </div>
+
+      </div>
+      <!--lines-->
+      <hr class="solid">
+      <!--/lines-->
+
+
+      <div class = "col-md-6">
+
+        <div class = "bio">
+          <h2 class="text-center subtitle">User Bio</h2>
+          <div>
+            <p>{{user.profile.bio}}</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--EDIT PROFILE-->
+    <ng-template #profileEdit>
+      <div id="form" class="container" method="POST">
+        <div class="modal-header">
+          <h4 class="modal-title pull-left">
+            <i class="fa-regular fa-comment-dots pe-2"></i>Edit Profile
+          </h4>
+          <button type="button"
+                  class="btn-close close pull-right"
+                  aria-label="Close"
+                  (click)="closeModal()">
+            <span aria-hidden="true" class="visually-hidden">&times;</span>
+          </button>
+        </div>
+
+
+
+        <form [formGroup]="editProfileForm" (ngSubmit)="onSubmit()">
+          <div class="form-group">
+            <label class="form-label mb-1 mt-3">First Name</label>
+            <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    formControlName="firstName"
+                    placeholder="First Name"
+            />
+          </div>
+          <div class="form-group">
+            <label class="form-label mb-1 mt-3">Last Name</label>
+            <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    formControlName="lastName"
+                    placeholder="Last Name"
+            />
+          </div>
+          <div class="form-group">
+            <label class="form-label mb-1 mt-3">Bio</label>
+            <textarea
+
+                    class="form-control"
+                    id="bio"
+                    formControlName="bio"
+                    placeholder="bio"></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label mb-1 mt-3">Occupation</label>
+            <input
+                    type="text"
+                    class="form-control"
+                    id="occupation"
+                    formControlName="occupation"
+                    placeholder="Occupation"
+            />
+          </div>
+
+          <div class="form-group mt-3">
+            <button type="button" class="btn btn-outline-dark gumbObjavi" (click)="onSubmit()">
+              <i class="fa-regular fa-circle-check pe-2">Save Changes</i>
+            </button>
+          </div>
+        </form>
+      </div>
+
+    </ng-template>
+
+    <!--KONEC EDIT PROFILE-->
+
+
+
+
+  </div>
+
+
+</div>

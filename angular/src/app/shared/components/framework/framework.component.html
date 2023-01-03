@@ -1,0 +1,111 @@
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid">
+    <a class = "navbar-brand">
+      <img src="../../../../assets/public/html/img/logo.png" alt="Logo Coursense" title="Logo Coursense">
+    </a>
+
+    <!-- Ikona za navigacijo v mobilnem pogledu (hamburger ikona) -->
+    <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navigacija">
+					<span class = "custom-toggler-icon">
+						<i class="fas fa-bars"></i>
+					</span>
+    </button>
+
+
+    <!-- Povezave (linki) v navigaciji -->
+    <div class="collapse navbar-collapse" id="navigacija">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a routerLink="home" class="nav-link" fragment="home">Home</a>
+        </li>
+        <!--
+        <li class="nav-item">
+          <a routerLink="courses" fragment="courses" class="nav-link">Courses</a>
+        </li>
+        -->
+        <li class="nav-item">
+          <a routerLink="search" class="nav-link" fragment="search">Search</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="" class="nav-link" fragment="whyus">Why Us</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="" class="nav-link" fragment="contact">contact</a>
+        </li>
+        <li *ngIf="isLoggedIn()" class="nav-item">
+          <a  (click)="logout()" class="nav-link" routerLink="" fragment="home">Log out</a>
+        </li>
+        <li  class="nav-item">
+          <a *ngIf="isLoggedIn()" routerLink="myprofile" fragment="profile" class="nav-link">
+            <span class="label">Profile</span>
+          </a>
+          <a *ngIf="!isLoggedIn()" routerLink="login" fragment="login" class="nav-link">
+            <span class="label">Log In</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+<router-outlet></router-outlet>
+<!--CONTACT FORM-->
+<div id="contact" class="offset">
+
+  <footer>
+    <div class="row">
+
+      <div class="col-md-5">
+        <img routerLink="" fragment="home" src="../../../../assets/public/html/img/logo.png" alt="logo">
+        <p>If you liked our service do not forget to follow us.
+          And if you have some implication to add at our service feel
+          free to add a message. </p>
+        <strong>Contact Us on:</strong>
+        <p>coursense@gmail.com<br>or on:</p>
+        <img src ="../../../../assets/public/html/img/contacts/facebook.png" alt="" title="">
+        <img src ="../../../../assets/public/html/img/contacts/instagram.png" alt="" title="">
+        <img src ="../../../../assets/public/html/img/contacts/twitter.png" alt="" title="">
+
+      </div>
+
+      <div class="col-md-7">
+        <h3>Contact Us</h3>
+        <div class="alert alert-dark p-2" [hidden]="!formDataError">
+          <i class="fa-solid fa-triangle-exclamation pe-2">{{ formDataError }}</i>
+        </div>
+        <form id="contact-form">
+
+          <div class="messages"></div>
+          <div class="controls">
+
+            <div class="form-group">
+              <input [(ngModel)]="newContact.name" id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name." required="required">
+            </div>
+
+            <div class="form-group">
+              <input [(ngModel)]="newContact.email" id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email." required="required">
+            </div>
+
+            <div class="form-group">
+              <textarea [(ngModel)]="newContact.message" id="form_message" name="message" class="form-control" placeholder="Add your message." rows="4" required="required"></textarea>
+            </div>
+
+            <button (click)="onSubmit()" class="btn btn-outline-light btn-md">Send message</button>
+
+          </div>
+
+        </form>
+
+      </div>
+      <hr class="socket">
+      &copy; coursense2022
+
+    </div> <!--- End of Row -->
+  </footer> <!--- End of Footer -->
+
+</div>
+<!-- Top Scroll -->
+
+<a routerLink="" class="top-scroll" fragment="home">
+  <i class="fas fa-angle-up"></i>
+</a>

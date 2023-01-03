@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Coursense </title>
+    <meta property="og:title" content="Courses">
+
+    <!-- VIEWPORT -->
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+
+    <!-- Latest compiled and minified BS4 CSS from CDN (Content Delivery Network)-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <!--Naša CSS datoteka-->
+    <link rel="stylesheet" href="../styles/home_style.css">
+
+</head>
+
+<body data-spy="scroll" data-target="#navigacija">
+
+<!--------------/ Start NAVIGACIJA /-------------->
+<div>
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+        <a href="/" class = "navbar-brand">
+            <img src="./img/logo.png" alt="Logo Coursense" title="Logo Coursense">
+        </a>
+
+        <!-- Ikona za navigacijo v mobilnem pogledu (hamburger ikona) -->
+        <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navigacija">
+					<span class = "custom-toggler-icon">
+						<i class="fas fa-bars"></i>
+					</span>
+        </button>
+
+
+        <!-- Povezave (linki) v navigaciji -->
+        <div class="collapse navbar-collapse" id="navigacija">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#search" class="nav-link">Search</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#popular" class="nav-link">Popular</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#whyus" class="nav-link">Why Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        <span class="label"> Log In </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+</div>
+<div class = userProfile>
+    <div class="modal-body row">
+        <div class = "col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <div class = "username">
+                <div class = "profilePicture text-center">
+                    <img src = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+                         alt = "profile picture"
+                         class = "rounded-circle img-fluid ">
+                </div>
+                <div class = "displayName">
+                    <h1 class = "text-center">[display_name]</h1>
+                </div>
+                <div class = "subtitle">
+                    <h2 class = "text-center">[email]</h2>
+                </div>
+            </div>
+            <div class = "optionsBar">
+                <!--
+
+                <div class="favourite text-center"><p>Favourite</p></div>
+                <div class="accSettings text-center"><p>Account Settings</p></div>
+                <div class="logOut text-center"><p>Log Out</p></div>
+
+
+                -->
+                <ul class="nav nav-pills flex-column">
+
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-heart"></i> Favourite</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-user-gear"></i> Account Settings</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Log Out</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!--lines-->
+        <hr class="solid">
+        <!--/lines-->
+        <div class = "col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <div class = "subtitle">
+                <h2>Occupation</h2>
+            </div>
+            <div class = "paragraph">
+                <p>Your occupation.</p>
+            </div>
+            <div class = "subtitle">
+                <h2>User Bio </h2>
+            </div>
+            <div class = "paragraph">
+                <p>Your bio.</p>
+            </div>
+            <div class = "subtitle">
+                <h2>Local Time</h2>
+            </div>
+            <div class = "paragraph">
+                <p>[d/M h:m a]</p>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<!--footer-->
+<div id="contact" class="offset">
+
+    <footer>
+        <div class="row">
+
+            <div class="col-md-5">
+                <img src="./img/logo.png" alt="logo">
+                <p>If you liked our service do not forget to follow us.
+                    And if you have some implication to add at our service feel
+                    free to add a message. </p>
+                <strong>Contact Us on:</strong>
+                <p>coursense@gmail.com<br>or on:</p>
+                <img src ="./img/contacts/facebook.png" alt="" title="">
+                <img src ="./img/contacts/instagram.png" alt="" title="">
+                <img src ="./img/contacts/twitter.png" alt="" title="">
+
+            </div>
+
+            <div class="col-md-7">
+                <h3>Contact Us</h3>
+
+                <form id="contact-form" method="post" action="contact.php">
+
+                    <div class="messages"></div>
+                    <div class="controls">
+
+                        <div class="form-group">
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name." required="required">
+                        </div>
+
+                        <div class="form-group">
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email." required="required">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Add your message." rows="4" required="required"></textarea>
+                        </div>
+
+                        <input type="submit" class="btn btn-outline-light btn-md" value="Send message">
+
+                    </div>
+
+                </form>
+
+            </div>
+
+            <hr class="socket">
+            &copy; coursense2022
+
+        </div> <!--- End of Row -->
+    </footer> <!--- End of Footer -->
+
+</div>
+
+<!-- Top Scroll -->
+
+<a href="#home" class="top-scroll">
+    <i class="fas fa-angle-up"></i>
+</a>
+<!--------------------------------/ End of Contact Section /------------------------------>
+
+<!-----------------/ VSE JS DATOTEKE (JavaScript Source Files) /----------------->
+
+<!-- jQuery library from CDN (Content Delivery Network) -->
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS from CDN (Content Delivery Network)-->
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled BS4 JavaScript from CDN (Content Delivery Network) -->
+<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- Font Awesome Ikone-->
+<script src = "https://use.fontawesome.com/releases/v5.8.2/js/all.js"></script>
+
+<!-- Naša JS datoteka-->
+<script src = "../javascript/script.js"></script>
+
+<!---------------/ END OF VSE JS DATOTEKE (JavaScript Source Files) /--------------->
+
+</body>
+</html>
